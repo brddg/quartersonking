@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'FarnhamDisplay-Regular';
+  src: url('../fonts/FarnhamDisplay-Regular.eot');
+  src: url('../fonts/FarnhamDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/FarnhamDisplay-Regular.woff2') format('woff2'),
+       url('../fonts/FarnhamDisplay-Regular.woff') format('woff'),
+       url('../fonts/FarnhamDisplay-Regular.ttf') format('truetype'),
+       url('../fonts/FarnhamDisplay-Regular.svg#farnhamdisplay-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto-Black-webfont.eot');
+  src: url('../fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Black-webfont.woff') format('woff'),
+       url('../fonts/Roboto-Black-webfont.ttf') format('truetype'),
+       url('../fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold-webfont.eot');
+  src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+       url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+       url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light-webfont.eot');
+  src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+       url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+       url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
