@@ -140,8 +140,12 @@ header {
 }
 
 .hero {
-  height: 650px;
+  height: 450px;
   background-size: cover;
+}
+
+.home .hero {
+  height: 650px;
 }
 
 .hero .table {
@@ -183,7 +187,7 @@ article {
 
 .content-block .inner-block {
   border: 2px solid #A18055;
-  padding: 27px 20px;
+  padding: 22px 20px;
 }
 
 .content-block .cta-button {
@@ -194,6 +198,14 @@ article {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.about-us h2 {
+  margin-top: 40px;
 }
 
 footer {
