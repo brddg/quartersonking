@@ -34,7 +34,7 @@ h4 {
   line-height: 26px;
 }
 
-p {
+p, li {
   font-family: "Roboto-Light";
   font-size: 18px;
   color: #808080;
@@ -206,6 +206,14 @@ article {
 
 .page-template-about-us h2 {
   margin-top: 40px;
+}
+
+.page-template-about-us h4 {
+  margin-top: 40px;
+}
+
+.page-template-about-us li {
+  padding: 5px;
 }
 
 footer {
