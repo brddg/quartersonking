@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php /* Template Name: About Us */ get_header(); ?>
 
   <main role="main">
     <!-- section -->
@@ -12,7 +12,13 @@
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-          <?php the_content(); ?>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <?php the_content(); ?>
+              </div>
+            </div>
+          </div>
 
           <br class="clear">
 
