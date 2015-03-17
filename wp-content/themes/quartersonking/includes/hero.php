@@ -8,7 +8,7 @@ else {
   $header_image = get_template_directory_uri() . '/img/hero-img.jpg';
 }
 
-$header_text = get_post_meta($post->ID, 'header_text', true);
+$header_text = get_field('hero_text');
 if (empty($header_text)) {
   $header_text = get_the_title($post);
 }
