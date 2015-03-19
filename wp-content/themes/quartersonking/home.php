@@ -20,10 +20,12 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 center-content-block">
-              <h2><?php echo get_field('home_first_block_title'); ?></h2>
-              <p><?php echo get_field('home_first_block_content'); ?></p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 center-content-block">
+                <h2><?php echo get_field('home_first_block_title'); ?></h2>
+                <p><?php echo get_field('home_first_block_content'); ?></p>
+              </div>
             </div>
           </div>
 
