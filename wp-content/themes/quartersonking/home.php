@@ -14,17 +14,17 @@
 
           <div class="container">
             <div class="row">
-              <div class="col-md-4"><img src="<?php echo get_field('home_image_1'); ?>" /></div>
-              <div class="col-md-4"><img src="<?php echo get_field('home_image_2'); ?>" /></div>
-              <div class="col-md-4"><img src="<?php echo get_field('home_image_3'); ?>" /></div>
+              <div class="col-md-4"><img src="<?php the_field('home_image_1'); ?>" /></div>
+              <div class="col-md-4"><img src="<?php the_field('home_image_2'); ?>" /></div>
+              <div class="col-md-4"><img src="<?php the_field('home_image_3'); ?>" /></div>
             </div>
           </div>
 
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2 center-content-block">
-                <h2><?php echo get_field('home_first_block_title'); ?></h2>
-                <p><?php echo get_field('home_first_block_content'); ?></p>
+                <h2><?php the_field('home_first_block_title'); ?></h2>
+                <p><?php the_field('home_first_block_content'); ?></p>
               </div>
             </div>
           </div>
@@ -33,12 +33,12 @@
           <div class="content-block beige">
             <div class="container">
               <div class="row">
-                <div class="col-md-6"><img src="<?php echo get_field('home_second_block_image'); ?>" /></div>
+                <div class="col-md-6"><img src="<?php the_field('home_second_block_image'); ?>" /></div>
                 <div class="col-md-6">
                   <div class="inner-block">
-                    <h2><?php echo get_field('home_second_block_title'); ?></h2>
-                    <p><?php echo get_field('home_second_block_content'); ?></p>
-                    <a href="#" class="cta-button"><?php echo get_field('home_second_block_action'); ?></a>
+                    <h2><?php the_field('home_second_block_title'); ?></h2>
+                    <p><?php the_field('home_second_block_content'); ?></p>
+                    <a href="<?php the_field('home_second_block_link'); ?>" class="cta-button"><?php the_field('home_second_block_action'); ?></a>
                   </div>
                 </div>
               </div>
@@ -50,12 +50,12 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="inner-block">
-                    <h2><?php echo get_field('home_third_block_title'); ?></h2>
-                    <p><?php echo get_field('home_third_block_content'); ?></p>
-                    <a class="cta-button"><?php echo get_field('home_third_block_action'); ?></a>
+                    <h2><?php the_field('home_third_block_title'); ?></h2>
+                    <p><?php the_field('home_third_block_content'); ?></p>
+                    <a href="<?php the_field('home_third_block_link'); ?>" class="cta-button"><?php the_field('home_third_block_action'); ?></a>
                   </div>
                 </div>
-                <div href="#" class="col-md-6"><img src="<?php echo get_field('home_third_block_image'); ?>" /></div>
+                <div class="col-md-6"><img src="<?php the_field('home_third_block_image'); ?>" /></div>
               </div>
             </div>
           </div>
@@ -63,8 +63,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2 center-content-block">
-                <h2><?php echo get_field('home_fourth_block_title'); ?><h2>
-                <p><?php echo get_field('home_fourth_block_content'); ?></p>
+                <h2><?php the_field('home_fourth_block_title'); ?><h2>
+                <p><?php the_field('home_fourth_block_content'); ?></p>
               </div>
             </div>
           </div>
