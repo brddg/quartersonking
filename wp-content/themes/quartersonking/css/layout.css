@@ -245,6 +245,20 @@ article {
   text-align: left;
 }
 
+.page-template-events .event-head {
+  height: 200px;
+  display: table;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.page-template-events .event-head h3 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
+
 .modal-content {
   border-radius: 0;
 }
