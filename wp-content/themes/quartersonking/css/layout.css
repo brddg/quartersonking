@@ -348,3 +348,12 @@ footer #social a:hover{
     height: 319px;
   }
 }
+
+@media (max-width: 991px) {
+  .content-block.beige .inner-block {
+    border-top-width: 0;
+  }
+  .content-block.black .inner-block {
+    border-bottom-width: 0;
+  }
+}
