@@ -200,6 +200,11 @@ article {
   margin-bottom: 50px;
 }
 
+.center-content-block li {
+  text-align: left;
+  padding: 5px 0;
+}
+
 .container h2 {
   text-align: center;
 }
@@ -234,6 +239,10 @@ article {
 .page-template-acommodations .room .room-content h2 {
   color: white;
   margin-bottom: 30px;
+}
+
+.page-template-acommodations h5 {
+  text-align: left;
 }
 
 .modal-content {
