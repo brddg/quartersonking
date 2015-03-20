@@ -216,6 +216,48 @@ article {
   padding: 5px;
 }
 
+.page-template-acommodations .room {
+  height: 357px;
+  background-color: #A18055;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.page-template-acommodations .room .room-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.page-template-acommodations .room .room-content h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-title {
+  color: #A18055;
+  text-align: center;
+}
+
+.modal-header {
+  border-bottom-width: 0;
+}
+
+.inner-modal-body {
+  padding: 30px 0;
+}
+
+.room-button {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 footer {
   padding: 20px 0;
   background: #cfd0c2;
