@@ -342,3 +342,9 @@ footer #social a:hover{
     margin-bottom: 15px;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-block img {
+    height: 319px;
+  }
+}
