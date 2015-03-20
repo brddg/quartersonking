@@ -159,6 +159,18 @@ header {
   padding: 200px;
 }
 
+@media (max-width: 767px) {
+  .home .hero, .hero {
+    height: auto;
+  }
+  .hero h1 {
+    padding: 100px 0;
+  }
+  .home .col-sm-4 {
+    margin-bottom: 15px;
+  }
+}
+
 article {
   margin: 20px 0;
 }
