@@ -259,6 +259,24 @@ article {
   color: white;
 }
 
+.page-template-about-charleston .about-block {
+  height: 400px;
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.page-template-about-charleston .about-block .about-block-content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.page-template-about-charleston .about-block .about-block-content h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
 .modal-content {
   border-radius: 0;
 }
