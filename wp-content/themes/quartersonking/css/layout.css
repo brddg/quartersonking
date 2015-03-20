@@ -159,17 +159,6 @@ header {
   padding: 200px;
 }
 
-@media (max-width: 767px) {
-  .home .hero, .hero {
-    height: auto;
-  }
-  .hero h1 {
-    padding: 100px 0;
-  }
-  .home .col-sm-4 {
-    margin-bottom: 15px;
-  }
-}
 
 article {
   margin: 20px 0;
@@ -337,3 +326,19 @@ footer #social a:hover{
   color: #cfd0c2;
 }
 
+@media (max-width: 767px) {
+  .home .hero, .hero {
+    height: auto;
+  }
+  .hero h1 {
+    padding: 100px 0;
+    font-size: 42px;
+  }
+  .home .col-sm-4 {
+    margin-bottom: 15px;
+  }
+
+  .page-template-services .col-md-6 {
+    margin-bottom: 15px;
+  }
+}
