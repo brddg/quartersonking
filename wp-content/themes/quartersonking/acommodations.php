@@ -81,9 +81,11 @@
                             <p><?php echo $room_blocks[$i]["content"]; ?></p>
                           </div>
 
+<!--
                           <div class="room-button">
                             <a href="<?php echo $room_blocks[$i]["link"]; ?>" class="cta-button">Book Now</a>
                           </div>
+-->
 
                         </div>
                       </div>

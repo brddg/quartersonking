@@ -2,7 +2,7 @@
 
 $home_hero_images = get_field('home_hero_images');
 if (empty($home_hero_images)) {
-  $home_hero_images = array('home_hero_image' => get_template_directory_uri() . '/img/hero-img.jpg');
+  $home_hero_images = array('home_hero_image' => get_template_directory_uri() . '/img/hero-img-2.jpg');
 }
 
 $home_hero_text = get_field('home_hero_text');

@@ -2,7 +2,7 @@
 
 $hero_image = get_field('hero_image');
 if (empty($hero_image)) {
-  $hero_image = get_template_directory_uri() . '/img/hero-img.jpg';
+  $hero_image = get_template_directory_uri() . '/img/hero-img-2.jpg';
 }
 
 $hero_text = get_field('hero_text');

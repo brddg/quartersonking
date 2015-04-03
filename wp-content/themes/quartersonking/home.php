@@ -12,6 +12,7 @@
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+<!--
           <div class="container">
             <div class="row">
               <div class="col-sm-4"><img src="<?php the_field('home_image_1'); ?>" /></div>
@@ -19,6 +20,7 @@
               <div class="col-sm-4"><img src="<?php the_field('home_image_3'); ?>" /></div>
             </div>
           </div>
+-->
 
           <div class="container">
             <div class="row">
