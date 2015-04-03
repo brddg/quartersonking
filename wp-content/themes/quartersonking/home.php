@@ -7,7 +7,7 @@
 
     <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-      <?php require_once 'includes/hero.php'; ?>
+      <?php require_once 'includes/home-hero.php'; ?>
 
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
