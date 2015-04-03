@@ -32,15 +32,19 @@ if (empty($home_hero_text)) {
     var i = 0;
     var images_count = home_images.length - 1;
 
-    setInterval(function(){
-      i++;
-      if (i > images_count) {
-        i = 0;
-      }
-      jQuery('#home-hero').fadeTo('slow', 0.3, function() {
-        jQuery(this).css('background-image', 'url(' + home_images[i] + ')');
-      }).fadeTo('slow', 1);
-    }, 5000);
+    if (images_count > 0) {
+
+      setInterval(function(){
+        i++;
+        if (i > images_count) {
+          i = 0;
+        }
+        jQuery('#home-hero').fadeTo('slow', 0.3, function() {
+          jQuery(this).css('background-image', 'url(' + home_images[i] + ')');
+        }).fadeTo('slow', 1);
+      }, 5000);
+
+    }
 
 
   });
