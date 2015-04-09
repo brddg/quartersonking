@@ -144,19 +144,19 @@ header {
   background-size: cover;
 }
 
-.home .hero {
-  height: 650px;
-}
+/* .home .hero { */
+/*   height: 650px; */
+/* } */
 
 .hero .table {
   display: table;
-  height: 650px;
+  height: 450px;
 }
 
 .hero h1 {
   margin: 0;
   text-align: center;
-  padding: 200px;
+  padding: 150px 200px;
 }
 
 

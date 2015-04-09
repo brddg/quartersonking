@@ -13,6 +13,6 @@ if (empty($hero_text)) {
 
 <div class="hero" style="background-image: url('<?php echo $hero_image; ?>')">
   <div class="container">
-    <h1><?php echo $hero_text; ?></h1>
+    <!-- <h1><?php echo $hero_text; ?></h1> -->
   </div>
 </div>
