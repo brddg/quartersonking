@@ -265,6 +265,7 @@ article {
   display: table;
   width: 100%;
   margin-bottom: 30px;
+  background-size: cover;
 }
 
 .page-template-about-charleston .about-block .about-block-content {

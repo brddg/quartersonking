@@ -12,22 +12,16 @@
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-          <div class="container">
-            <?php if (have_rows('about_blocks')): ?>
-              <?php while (have_rows('about_blocks')): the_row(); ?>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="about-block" style="background: url(<?php the_sub_field('image'); ?>)">
-                      <div class="about-block-content">
-                        <h3><?php the_sub_field('title'); ?></h3>
-                        <a class="cta-button white" href=<?php the_sub_field('link'); ?>>Learn More</a>
-                      </div>
-                    </div>
-                  </div>
+          <?php if (have_rows('about_blocks')): ?>
+            <?php while (have_rows('about_blocks')): the_row(); ?>
+              <div class="about-block" style="background-image: url(<?php the_sub_field('image'); ?>)">
+                <div class="about-block-content">
+                  <h3><?php the_sub_field('title'); ?></h3>
+                  <a class="cta-button white" href=<?php the_sub_field('link'); ?>>Learn More</a>
                 </div>
-              <?php endwhile; ?>
-            <?php endif; ?>
-          </div>
+              </div>
+            <?php endwhile; ?>
+          <?php endif; ?>
 
           <br class="clear">
 
