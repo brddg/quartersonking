@@ -3,12 +3,14 @@
 
         <h4>The Quarters on King</h4>
         <p class="small">292 King St, Charleston | South Carolina, 29401 | 843.000.0000</p>
+        <!--
         <div id="social">
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-google-plus"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
+        -->
 
         <p class="small smaller">&copy; <?php echo date('Y'); ?> The Quarters on King - All rights reserved</p>
       </footer>
