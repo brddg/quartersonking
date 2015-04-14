@@ -117,11 +117,16 @@ nav li a:hover{
 
 header {
   background: #36373b;
+  background: rgba(41,41,45,.9);
   padding: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 #header-inset {
-  border: 3px solid #a18055;
+  /* border: 3px solid #a18055; */
 }
 
 #header-inset .logo a i.icon-icon {
@@ -140,7 +145,7 @@ header {
 }
 
 .hero {
-  height: 450px;
+  height: 666px;
   background-size: cover;
 }
 
@@ -154,9 +159,21 @@ header {
 }
 
 .hero h1 {
-  margin: 0;
+  margin: 211px 0 0;
   text-align: center;
   padding: 150px 200px;
+}
+
+@media (max-width: 1200px) {
+  .hero h1 {
+    padding: 150px 150px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero h1 {
+    padding: 150px 0;
+  }
 }
 
 
