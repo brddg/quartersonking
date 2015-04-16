@@ -15,9 +15,9 @@
 <!--
           <div class="container">
             <div class="row">
-              <div class="col-sm-4"><img src="<?php the_field('home_image_1'); ?>" /></div>
-              <div class="col-sm-4"><img src="<?php the_field('home_image_2'); ?>" /></div>
-              <div class="col-sm-4"><img src="<?php the_field('home_image_3'); ?>" /></div>
+              <div class="col-sm-4"><img alt="<?php the_field('home_image_1_alt'); ?>" src="<?php the_field('home_image_1'); ?>" /></div>
+              <div class="col-sm-4"><img alt="<?php the_field('home_image_2_alt'); ?>" src="<?php the_field('home_image_2'); ?>" /></div>
+              <div class="col-sm-4"><img alt="<?php the_field('home_image_3_alt'); ?>" src="<?php the_field('home_image_3'); ?>" /></div>
             </div>
           </div>
 -->
@@ -35,7 +35,7 @@
           <div class="content-block beige">
             <div class="container">
               <div class="row">
-                <div class="col-md-6"><img src="<?php the_field('home_second_block_image'); ?>" /></div>
+                <div class="col-md-6"><img alt="<?php the_field('home_second_block_image_alt'); ?>" src="<?php the_field('home_second_block_image'); ?>" /></div>
                 <div class="col-md-6">
                   <div class="inner-block">
                     <h2><?php the_field('home_second_block_title'); ?></h2>
@@ -57,7 +57,7 @@
                     <a href="<?php the_field('home_third_block_link'); ?>" class="cta-button"><?php the_field('home_third_block_action'); ?></a>
                   </div>
                 </div>
-                <div class="col-md-6"><img src="<?php the_field('home_third_block_image'); ?>" /></div>
+                <div class="col-md-6"><img alt="<?php the_field('home_third_block_image_alt'); ?>" src="<?php the_field('home_third_block_image'); ?>" /></div>
               </div>
             </div>
           </div>
