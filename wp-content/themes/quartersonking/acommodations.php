@@ -58,7 +58,7 @@
                               <div class="carousel-inner" role="listbox">
                                 <?php for ($j = 0; $j < count($more_images); $j++): ?>
                                   <div class="item <?php if ($j == 0) echo "active"; ?>">
-                                    <img src="<?php echo $more_images[$j]["image"]; ?>" />
+                                    <img alt="<?php echo $more_images[$j]["alt"]; ?>" src="<?php echo $more_images[$j]["image"]; ?>" />
                                   </div>
                                 <?php endfor; ?>
                               </div>
