@@ -355,6 +355,12 @@ footer #social a:hover{
 }
 
 @media (max-width: 767px) {
+  header {
+    position: relative;
+  }
+  .home header {
+    position: absolute;
+  }
   .home .hero, .hero {
     height: auto;
   }
