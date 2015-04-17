@@ -115,6 +115,12 @@ nav li a:hover{
   background: #FFFFFF;
 }
 
+#home-cta {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 header {
   background: #36373b;
   background: rgba(41,41,45,.9);
