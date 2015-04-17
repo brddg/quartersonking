@@ -1,16 +1,4 @@
 @font-face {
-  font-family: 'FarnhamDisplay-Regular';
-  src: url('../fonts/FarnhamDisplay-Regular.eot');
-  src: url('../fonts/FarnhamDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/FarnhamDisplay-Regular.woff2') format('woff2'),
-       url('../fonts/FarnhamDisplay-Regular.woff') format('woff'),
-       url('../fonts/FarnhamDisplay-Regular.ttf') format('truetype'),
-       url('../fonts/FarnhamDisplay-Regular.svg#farnhamdisplay-regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Roboto-Black';
   src: url('../fonts/Roboto-Black-webfont.eot');
   src: url('../fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
