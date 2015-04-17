@@ -12,6 +12,14 @@
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" style="text-align: center; margin-top: 20px;">
+              <a href="https://gc.synxis.com/rez.aspx?Hotel=64625&Chain=17744" class="cta-button">Book Now</a>
+            </div>
+          </div>
+        </div>
+
 <!--
           <div class="container">
             <div class="row">
