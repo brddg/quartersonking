@@ -34,7 +34,7 @@ h4 {
   line-height: 26px;
 }
 
-p, li {
+p, li, input {
   font-family: "Roboto-Light";
   font-size: 18px;
   color: #808080;
@@ -121,14 +121,54 @@ nav li a:hover{
   margin-bottom: 40px;
 }
 
+#book-now {
+  padding-top: 10px;
+  background: #cac8bb;
+}
+
+#book-now .cta-button {
+  display: inline-block;
+  padding: 5px 40px 4px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #book-now .cta-button {
+    padding: 5px 25px 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  #book-now .cta-button {
+    text-align: center;
+    padding: 5px 0 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.input-group-addon {
+  background: #fff;
+  border-left-color: #fff !important;
+  border-left-width: 0 !important;
+}
+
 header {
   background: #36373b;
   background: rgba(41,41,45,.9);
   padding: 20px;
   position: absolute;
   width: 100%;
-  top: 0;
+  top: 59px;
   z-index: 10;
+}
+
+@media (max-width: 767px) {
+  header {
+    top: 0px;
+  }
+  .home header {
+    top: 55px;
+  }
 }
 
 #header-inset {

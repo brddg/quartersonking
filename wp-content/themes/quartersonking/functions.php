@@ -96,6 +96,18 @@ function html5blank_header_scripts()
 
         wp_register_script('svgs', get_template_directory_uri() . '/js/grunticon.loader.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('svgs'); // Enqueue it!
+
+        wp_register_script('moment', get_template_directory_uri() . '/js/moment.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('moment'); // Enqueue it!
+
+        wp_register_script('datepicker', get_template_directory_uri() . '/js/datepicker.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('datepicker'); // Enqueue it!
+
+        wp_register_script('selectpicker', get_template_directory_uri() . '/js/bootstrap-select.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('selectpicker'); // Enqueue it!
+
+        wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('scripts'); // Enqueue it!
     }
 }
 
@@ -116,6 +128,12 @@ function html5blank_styles()
 
     wp_register_style('fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array(), '1.0', 'all');
     wp_enqueue_style('fontawesome'); // Enqueue it!
+
+    wp_register_style('datepicker', get_template_directory_uri() . '/css/datepicker.css', array(), '1.0', 'all');
+    wp_enqueue_style('datepicker'); // Enqueue it!
+
+    wp_register_style('bootstrap-select', get_template_directory_uri() . '/css/bootstrap-select.css', array(), '1.0', 'all');
+    wp_enqueue_style('bootstrap-select'); // Enqueue it!
 
     wp_register_style('fonts', get_template_directory_uri() . '/css/fonts.css', array(), '1.0', 'all');
     wp_enqueue_style('fonts'); // Enqueue it!

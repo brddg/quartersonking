@@ -21,6 +21,59 @@
     <!-- wrapper -->
     <div class="wrapper">
 
+      <div id="book-now">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-3 hidden-xs">
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                  <input type='text' class="form-control" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 hidden-xs">
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker2'>
+                  <input type='text' class="form-control" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 hidden-xs">
+              <div class="form-group">
+                <div class='input-group' id='guestpicker'>
+                  <select class="selectpicker">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <a id="book-button" href="https://gc.synxis.com/rez.aspx?Hotel=64625&amp;Chain=17744" class="cta-button">Book Now</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       <!-- header -->
       <header class="header clear" role="banner">
 
