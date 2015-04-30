@@ -2,7 +2,7 @@
       <footer class="footer" role="contentinfo">
 
         <h4>The Quarters on King</h4>
-        <p class="small">292 King St, Charleston | South Carolina, 29401 | 843.000.0000</p>
+        <p class="small">292 King St, Charleston | South Carolina, 29401 | 843-388-4374</p>
         <!--
         <div id="social">
           <a href="#"><i class="fa fa-facebook"></i></a>
